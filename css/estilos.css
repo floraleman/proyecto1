@@ -1,3 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: px;
+}
+
 .nav{
 background-color: rgb(105,183,200);
 height: 12vh;
@@ -7,4 +15,51 @@ height: 12vh;
   display: inline-block;
   float: left;
   justify-content: space-between;
+}
+
+.main{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.carrusel{
+display: flex;
+justify-content: center;
+padding-right: 100px;
+padding-left: 100px;
+}
+
+h2{
+    font-size: 3.5vh;
+    text-align: center;
+    margin-bottom: 18%;
+    width: 100%;
+}
+
+.descripcion{
+    text-align: justify;
+    font-size: 2.3vh;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.nosotros{
+  background-color: lightblue;
+
+}
+
+.productos{
+  background-color: lightgreen;
+}
+
+.galeria{
+  background-color: pink;
+}
+
+.contacto{
+  background-color: lavender;
+}
+
+footer{
+  text-align: center;
 }
