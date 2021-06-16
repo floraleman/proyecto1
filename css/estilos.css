@@ -4,9 +4,9 @@
 
 body{
   padding: px;
-  font-family: muli,sans-serif;
+  font-family: courier;
   font-size: 10px;
-  background-color: green;
+
 }
 
 .nav{
@@ -48,6 +48,7 @@ h2{
     text-align: center;
     margin-bottom: 18%;
     width: 100%;
+    color: #565656
 }
 
 .descripcion{
@@ -55,31 +56,52 @@ h2{
     font-size: 2.3vh;
     padding-left: 5%;
     padding-right: 5%;
-    color: black;
+    color: #565656;
 }
 
 #nosotros{
-  background-color: white;
+  background-color: #d3d3d3;
+}
 
+.foto_local{
+  display: flex;
+  justify-content: center;
 }
 
 #productos{
-  background-color: white;
-
+  background-color: #d3d3d3;
+  align-items: center;
 }
 
-#marcas{
-  background-color: white;
+.foto_cocina{
+  order: 1;
+}
+
+.foto_pisos{
+  order: 2;
+}
+
+.foto_limpiadores{
+  order: 3;
+}
+
+.foto_lavanderia{
+  order: 4;
+}
+
+#ubicacion{
+  background-color: #d3d3d3;
 
 }
 
 #contacto{
-  background-color: white;
-  
+  background-color: #d3d3d3;
+
 }
 
 footer{
   text-align: center;
+
 }
 
 .container{
