@@ -31,9 +31,7 @@ nav ol li{
 }
 
 .main{
-  padding-left: 15vh;
-  padding-right: 15vh;
-  background-color: rgb(105,183,200)
+  background-color: white;
 }
 
 .carrusel{
@@ -61,16 +59,45 @@ h2{
 
 #nosotros{
   background-color: #d3d3d3;
+  height:35vh;
+  width: 50%;
+  display: flex;
+ justify-content: center;
+ order: 1;
 }
 
-.foto_local{
+.contenedor_nosotros{
+  background-color: #d3d3d3;
+  height:35%;
+  width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content:center;
+  position: relative;
+  left: 50%;
 }
+
 
 #productos{
+  background-color: rgb(105,183,200);
+  height:35vh;
+  width: 50%;
+  display: flex;
+ justify-content: center;
+ order: 1;
+ position: relative;
+ left: 50%;
+}
+
+.contenedor_productos{
   background-color: #d3d3d3;
+  height:35vh;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  order: 2;
   align-items: center;
+  position: absolute;
+  top:87%;
 }
 
 .foto_cocina{
@@ -89,13 +116,27 @@ h2{
   order: 4;
 }
 
+#horarios{
+  background-color: #d3d3d3;
+  height:35vh;
+  width: 50%;
+  display: flex;
+ justify-content: center;
+}
+
 #ubicacion{
   background-color: #d3d3d3;
+  height:35vh;
+  width: 50%;
+  justify-content: center;
+  position: relative;
+  left: 50%;
 
 }
 
 #contacto{
-  background-color: #d3d3d3;
+
+ justify-content: center;
 
 }
 
