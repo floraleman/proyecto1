@@ -4,11 +4,24 @@
 
 body{
   padding: px;
+  font-family: muli,sans-serif;
+  font-size: 10px;
+  background-color: green;
 }
 
 .nav{
 background-color: rgb(105,183,200);
 height: 12vh;
+}
+
+nav ol li{
+  float:left;
+  margin: 10px;
+  line-height: 25px;
+  justify-content: space-between;
+  list-style-type:none;
+  color: white;
+
 }
 
 .menu{
@@ -18,8 +31,9 @@ height: 12vh;
 }
 
 .main{
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 15vh;
+  padding-right: 15vh;
+  background-color: rgb(105,183,200)
 }
 
 .carrusel{
@@ -39,27 +53,42 @@ h2{
 .descripcion{
     text-align: justify;
     font-size: 2.3vh;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
 }
 
-.nosotros{
-  background-color: lightblue;
+#nosotros{
+  background-color: white;
 
 }
 
-.productos{
-  background-color: lightgreen;
+#productos{
+  background-color: white;
+
 }
 
-.galeria{
-  background-color: pink;
+#marcas{
+  background-color: white;
+
 }
 
-.contacto{
-  background-color: lavender;
+#contacto{
+  background-color: white;
+  
 }
 
 footer{
   text-align: center;
+}
+
+.container{
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
 }

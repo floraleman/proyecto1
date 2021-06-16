@@ -23,10 +23,10 @@
 
     <div class="menu">
           <ol>
-          <li><a href="file:///C:/Users/laura/Desktop/Tarea%203/index.html"><b>Nosotros</b></a></li>
-          <li><a href="file:///C:/Users/laura/Desktop/Tarea%203/index.html"><b>Productos</b></a></li>
-          <li><a href="file:///C:/Users/laura/Desktop/Tarea%203/index.html"><b>Galería</b></a></li>
-          <li><a href="file:///C:/Users/laura/Desktop/Tarea%203/index.html"><b>Contanto</b></a></li>
+          <li><a href="file:///C:/Users/laura/Desktop/proyectofrontend/index.html#nosotros"><b>Nosotros</b></a></li>
+          <li><a href="file:///C:/Users/laura/Desktop/proyectofrontend/index.html#productos"><b>Productos</b></a></li>
+          <li><a href="file:///C:/Users/laura/Desktop/proyectofrontend/index.html#marcas"><b>Nuestras marcas</b></a></li>
+          <li><a href="file:///C:/Users/laura/Desktop/proyectofrontend/index.html#contacto"><b>Contanto</b></a></li>
         </ol>
         </div>
   </nav>
@@ -36,25 +36,78 @@
 <!-- MAIN -->
 <article class="main">
 <a class="carrusel"href="#">
-  <img src="./multimedia/portada.png" alt="portada">
+  <img src="./multimedia/portada.png" width="756" height="426" alt="portada" >
 </a>
 
-<section class="nosotros">
+<section id="nosotros">
 <h2>NOSOTROS</h2>
 <p class="descripcion">Somos una empresa orientada a brindar un servicio de asesoramiento, comercialización y distribución de productos de limpieza e higiene profesional, para el área institucional, industrial y doméstica. Buscamos tener una amplia línea de productos de alta calidad de uso profesional para cada una de sus necesidades.</p>
 </section>
 
-<section class="productos">
+<section id="productos">
   <h2>PRODUCTOS</h2>
   <p class="descripcion">Somos una empresa orientada a brindar un servicio de asesoramiento, comercialización y distribución de productos de limpieza e higiene profesional, para el área institucional, industrial y doméstica. Buscamos tener una amplia línea de productos de alta calidad de uso profesional para cada una de sus necesidades.</p>
 </section>
 
-<section class="galeria">
-<h2>GALERÍA</h2>
+<section id="marcas">
+<h2>NUESTRAS MARCAS</h2>
 </section>
 
-<section class="contacto">
+<section id="contacto">
 <h2>CONTACTO</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="phone" name="phone" type="text" placeholder="Celular" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message" placeholder="Ingrese su mensaje. Nos contactaremos con usted a la brevedad." rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 </section>
 
 
